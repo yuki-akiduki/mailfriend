@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box {
+  width: 300px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #a3b4ff;
+  position: relative;
+}
+
+.name {
+  background: #007a47;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  display: flex;
+  width: 100%;
+}
+
+.you {
+  text-align: right;
+}
+
+.risa {
+  margin-top: 30px;
+}
+
+.label {
+  width: 100%;
+}
+
+.input {
+  border: 1px solid #000;
+  width: 80%;
+}
+
+.btn {
+  width: 20%;
+}
+
+.btnBox {
+  background: #616161;
+}
